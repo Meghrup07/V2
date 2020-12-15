@@ -1,4 +1,4 @@
-/** @format */
+﻿/** @format */
 
 import React from "react";
 import styled from "styled-components";
@@ -120,9 +120,9 @@ const Sidebar = ({ handleToast }) => {
       </LeftSideContainer>
       <RightSideContainer>
         <SideText>
-          <a href="https://api.whatsapp.com/send?phone=8806520498">
-            (+91) 8806520498
-          </a>
+              <a href="https://api.whatsapp.com/send?phone=8806520498">
+                (+91) 8806520498
+              </a>
         </SideText>
         <Line />
         <SideText>
