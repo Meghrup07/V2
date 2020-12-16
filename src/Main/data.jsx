@@ -43,12 +43,12 @@ export const dataEducation = {
     main: "S. T. Gujar Jr. College 🎓",
     expand: "Science (Senior Secondary School)",
     date: "( 2014 / 2016 )",
-    country: "Nashik, Maharashtra",
+    country: "58.92%",
   },
   1: {
     main: "North Maharashtra Univ.🎓",
     expand: "Bachelor in Computer Application",
     date: "( 2017 / 2020 )",
-    country: "Jalgaon, Maharashtra",
+    country: "CGPA: 9.07",
   },
 };
