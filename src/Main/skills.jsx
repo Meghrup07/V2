@@ -129,7 +129,7 @@ const BodyList = styled(motion.ul)`
   @media only screen and (max-width: 450px) {
     padding: 0;
     margin: 0;
-    padding-left: 0.6em;
+    padding-left: 0em;
     padding-top: 0.6em;
   }
 `;

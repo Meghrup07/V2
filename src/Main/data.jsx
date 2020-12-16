@@ -46,7 +46,7 @@ export const dataEducation = {
     country: "58.92%",
   },
   1: {
-    main: "North Maharashtra Univ.🎓",
+    main: "North Maharashtra University🎓",
     expand: "Bachelor in Computer Application",
     date: "( 2017 / 2020 )",
     country: "CGPA: 9.07",
