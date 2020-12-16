@@ -22,6 +22,10 @@ const LeftSideContainer = styled(SideContainer)`
   bottom: 0px;
   left: 40px;
   right: auto;
+  a:hover {
+    color: #ffc200;
+    text-decoration: none;
+  }
 `;
 const RightSideContainer = styled(SideContainer)`
   bottom: 0px;
@@ -34,7 +38,7 @@ const SideText = styled.div`
     text-decoration: none;
   }
   a:hover {
-    font-size: 17px;
+    font-size: 16.5px;
     color: #ffc200;
     text-decoration: none;
   }
@@ -120,9 +124,9 @@ const Sidebar = ({ handleToast }) => {
       </LeftSideContainer>
       <RightSideContainer>
         <SideText>
-              <a href="https://api.whatsapp.com/send?phone=8806520498">
-                (+91) 8806520498
-              </a>
+          <a href="https://api.whatsapp.com/send?phone=8806520498">
+            (+91) 8806520498
+          </a>
         </SideText>
         <Line />
         <SideText>

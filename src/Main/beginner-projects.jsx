@@ -1,5 +1,5 @@
 /** @format */
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { Github } from "@styled-icons/boxicons-logos";
@@ -10,6 +10,8 @@ import Covid19 from "../assets/covid19.png";
 import Weather from "../assets/weather.png";
 import Portfolio1 from "../assets/demo.png";
 import Portfolio from "../assets/demo1.png";
+import TODO from "../assets/to-do.png";
+import CrudApp from "../assets/project.jpg";
 
 const Container = styled(motion.div)`
   width: 100%;
@@ -147,6 +149,21 @@ const TechItems = styled.span`
 const Hastag = styled.span`
   color: #ffc200;
 `;
+const ButtonContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const ButtonShow = styled(motion.button)`
+  margin-top: 2em;
+  padding: 0.7em 1em;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f1f1f;
+  font-family: "Calibre", sans-serif;
+  cursor: pointer;
+`;
 
 const Link = ({ githubLink, externalLink }) => {
   return (
@@ -172,6 +189,9 @@ const Link = ({ githubLink, externalLink }) => {
 };
 
 const BeginnerProjects = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  const handleShowMore = () => setShowMore(true);
   return (
     <Container
       initial={{ opacity: 0 }}
@@ -252,7 +272,7 @@ const BeginnerProjects = () => {
           </ImgContainer>
           <TextContainer>
             <Title>Task-List App</Title>
-            <Explanation>Simple TO-DO App using Angular</Explanation>
+            <Explanation>Simple Task-List App using Angular</Explanation>
             <Technology>
               <TechItems>
                 <Hastag>#</Hastag>HTML & CSS
@@ -343,6 +363,65 @@ const BeginnerProjects = () => {
           </TextContainer>
         </Card>
       </CardRow>
+      {!showMore && (
+        <ButtonContainer>
+          <ButtonShow
+            whileHover={{ y: [0, -8, 0] }}
+            transition={{ duration: 0.5 }}
+            onClick={handleShowMore}
+          >
+            Show more
+          </ButtonShow>
+        </ButtonContainer>
+      )}
+      {showMore && (
+        <>
+          <CardRow>
+            <Card>
+              <Link
+                githubLink="https://github.com/Meghrup07/todoapp"
+                externalLink="https://meghrup07.github.io/todoapp/"
+              />
+              <ImgContainer>
+                <Img src={TODO} alt="todo" />
+              </ImgContainer>
+              <TextContainer>
+                <Title>TO-DO App</Title>
+                <Explanation>SImple TO-DO List App Using Angular</Explanation>
+                <Technology>
+                  <TechItems>
+                    <Hastag>#</Hastag>HTML & CSS
+                  </TechItems>
+                  <TechItems>
+                    <Hastag>#</Hastag>Angular
+                  </TechItems>
+                </Technology>
+              </TextContainer>
+            </Card>
+            <Card>
+              <Link
+                githubLink="https://github.com/Meghrup07/SimpleCrudApp"
+                externalLink="https://github.com/Meghrup07/SimpleCrudApp"
+              />
+              <ImgContainer>
+                <Img src={CrudApp} alt="CrudApp" />
+              </ImgContainer>
+              <TextContainer>
+                <Title>Crud App</Title>
+                <Explanation>Created simple crud app in php.</Explanation>
+                <Technology>
+                  <TechItems>
+                    <Hastag>#</Hastag>PHP
+                  </TechItems>
+                  <TechItems>
+                    <Hastag>#</Hastag>MySql
+                  </TechItems>
+                </Technology>
+              </TextContainer>
+            </Card>
+          </CardRow>
+        </>
+      )}
     </Container>
   );
 };
