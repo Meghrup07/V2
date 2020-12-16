@@ -15,7 +15,7 @@ export const dataExperience = {
   info: {
     0: {
       title: "@kloudone 🏢",
-      date: "May 2020 - August  2020",
+      date: "June 2020 - Sept. 2020",
       first:
         "Deployment: Deployed APIs Using Dockers and Kubernetes in Google Cloud Platform.",
       second: "Worked on Postgresql Database.,",
