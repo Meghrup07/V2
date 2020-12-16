@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { motion, AnimateSharedLayout } from "framer-motion";
 import BeginnerProjects from "./beginner-projects";
+import Certificate from "./Certificate";
 
 const Container = styled(motion.section)`
   padding-top: 150px;
@@ -76,14 +77,14 @@ const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 20%;
+  width: 25%;
   padding: 0em 1.5em;
   border-radius: 5px;
   background: #ffffff14;
   box-shadow: rgb(0 0 0 / 14%) 0px 2px 3px 0px,
     rgb(0 0 0 / 15%) 0px 10px 15px 0px;
   @media only screen and (max-width: 450px) {
-    width: 55%;
+    width: 58%;
   }
 `;
 
@@ -92,10 +93,8 @@ const Button = styled(motion.h3)`
   text-transform: uppercase;
   position: relative;
   z-index: 2;
-  padding-left: 118px;
   @media only screen and (max-width: 450px) {
     font-size: 16px;
-    padding-left: 50px;
   }
 `;
 
@@ -112,12 +111,12 @@ const BackgroundButton = styled(motion.div)`
   background: #ffc200;
   position: absolute;
   z-index: -1;
-  left: 38px;
+  left: -11px;
   top: -7px;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 10px 15px 0px;
   @media only screen and (max-width: 450px) {
-    left: 11px;
+    left: -8px;
     top: -6px;
   }
 `;
@@ -133,13 +132,13 @@ const useIsMobile = () => {
 };
 
 const Projects = ({ projectRef }) => {
-  const [showAdvanced, setShowAdvanced] = useState(true);
+  const [showCertificate, setShowCertificate] = useState(true);
   const isMobile = useIsMobile();
 
   const handleProjects = (e) => {
     const { id } = e.target;
-    if (id === "security") return setShowAdvanced(true);
-    if (id === "projects") return setShowAdvanced(false);
+    if (id === "certificates") return setShowCertificate(false);
+    if (id === "projects") return setShowCertificate(true);
     return;
   };
 
@@ -159,17 +158,29 @@ const Projects = ({ projectRef }) => {
               }}
               transition={{}}
               onClick={handleProjects}
+              id="certificates"
+            >
+              {!showCertificate && <BackgroundButton layoutId="underline" />}
+              Projects
+            </Button>
+            <Button
+              whileHover={{
+                scaleX: [1, 1.2, 0.85, 1],
+                scaleY: [1, 0.8, 1.15, 1],
+              }}
+              transition={{}}
+              onClick={handleProjects}
               id="projects"
             >
-              {!showAdvanced && <BackgroundButton layoutId="underline" />}
-              Projects
+              {showCertificate && <BackgroundButton layoutId="underline" />}
+              Certificates
             </Button>
           </ButtonContainer>
         </AnimateSharedLayout>
       </ButtonBox>
       <Body>
-        {showAdvanced ? (
-          <BeginnerProjects isMobile={isMobile} />
+        {showCertificate ? (
+          <Certificate isMobile={isMobile} />
         ) : (
           <BeginnerProjects />
         )}
