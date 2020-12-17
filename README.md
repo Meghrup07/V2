@@ -11,7 +11,7 @@
 </p>
 </p>
 <div align="center">
-  <img alt="Demo" src="src/assets/demo.png" />
+  <img alt="Demo" src="src/assets/demo1.png" />
 </div>
 
 ## 🍴Forking this repo
