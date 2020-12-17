@@ -132,13 +132,13 @@ const useIsMobile = () => {
 };
 
 const Projects = ({ projectRef }) => {
-  const [showCertificate, setShowCertificate] = useState(true);
+  const [showprojects, setShowprojects] = useState(false);
   const isMobile = useIsMobile();
 
   const handleProjects = (e) => {
     const { id } = e.target;
-    if (id === "certificates") return setShowCertificate(false);
-    if (id === "projects") return setShowCertificate(true);
+    if (id === "projects") return setShowprojects(true);
+    if (id === "certificates") return setShowprojects(false);
     return;
   };
 
@@ -160,7 +160,7 @@ const Projects = ({ projectRef }) => {
               onClick={handleProjects}
               id="certificates"
             >
-              {!showCertificate && <BackgroundButton layoutId="underline" />}
+              {!showprojects && <BackgroundButton layoutId="underline" />}
               Projects
             </Button>
             <Button
@@ -172,14 +172,14 @@ const Projects = ({ projectRef }) => {
               onClick={handleProjects}
               id="projects"
             >
-              {showCertificate && <BackgroundButton layoutId="underline" />}
+              {showprojects && <BackgroundButton layoutId="underline" />}
               Certificates
             </Button>
           </ButtonContainer>
         </AnimateSharedLayout>
       </ButtonBox>
       <Body>
-        {showCertificate ? (
+        {showprojects ? (
           <Certificate isMobile={isMobile} />
         ) : (
           <BeginnerProjects />
