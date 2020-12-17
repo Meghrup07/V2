@@ -96,6 +96,9 @@ const TitleText1 = styled.h1`
   font-family: "Calibre", sans-serif;
   @media only screen and (max-width: 450px) {
     font-size: 22px;
+    text-decoration: 1.5px solid underline;
+    text-underline-position: under;
+    text-decoration-color: #ffc200;
   }
 `;
 const ListContainer = styled.div`

@@ -55,6 +55,10 @@ const ColumnText = styled(motion.span)`
     text-align: center;
     font-size: 14px;
     flex: 0 0 130px;
+     whileHover={{
+              scaleX: [1, 1.2, 0.85, 1],
+              scaleY: [1, 0.8, 1.15, 1],
+            }}
   }
 `;
 
