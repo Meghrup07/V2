@@ -196,7 +196,7 @@ const BeginnerProjects = () => {
           </ImgContainer>
           <TextContainer>
             <Title>Become a Front-End Web Developer</Title>
-            <Explanation>issued by Lynda.com</Explanation>
+            <Explanation>issued by LinkedIn Learning</Explanation>
           </TextContainer>
         </Card>
         <Card>
