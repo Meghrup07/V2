@@ -249,7 +249,7 @@ const BeginnerProjects = () => {
         <>
           <CardRow>
             <Card>
-              <Link externalLink="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=3B1AD5E7C7ED49D5BC8051AC5B4DBEDF" />
+              <Link externalLink="https://drive.google.com/file/d/1BKXZcYz4tjkgocnlPiWcVoo9Q1xAFnay/view" />
               <ImgContainer>
                 <Img src={Git} alt="Git" />
               </ImgContainer>
