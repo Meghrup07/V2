@@ -3,14 +3,14 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { ExternalLinkOutline } from "@styled-icons/evaicons-outline";
-import TicTacToe from "../assets/tictaktoe.png";
-import TaskListApp from "../assets/task-list.png";
-import Covid19 from "../assets/covid19.png";
-import Weather from "../assets/weather.png";
-import Portfolio1 from "../assets/demo.png";
-import Portfolio from "../assets/demo1.png";
-import TODO from "../assets/to-do.png";
-import CrudApp from "../assets/project.jpg";
+import Git from "../assets/Git.png";
+import Angular from "../assets/Angular.png";
+import CNSS from "../assets/CNSS.png";
+import Java from "../assets/java.png";
+import CSS from "../assets/css.png";
+import HTML from "../assets/html.png";
+import DS from "../assets/DS.png";
+import Front from "../assets/project.jpg";
 
 const Container = styled(motion.div)`
   width: 100%;
@@ -168,27 +168,23 @@ const BeginnerProjects = () => {
     >
       <CardRow>
         <Card>
-          <Link externalLink="https://meghshyam.netlify.app" />
+          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/ZJX94PAS25GK" />
           <ImgContainer>
-            <Img src={Portfolio} alt="portfolio" />
+            <Img src={HTML} alt="HTML" />
           </ImgContainer>
           <TextContainer>
-            <Title>Portfolio</Title>
-            <Explanation>
-              My Portfolio website created using React and deployed on Netlify
-            </Explanation>
+            <Title>Introduction to HTML5</Title>
+            <Explanation>issued by Coursera</Explanation>
           </TextContainer>
         </Card>
         <Card>
-          <Link externalLink="https://meghshyam.netlify.app" />
+          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/JVWEWT8MFQQ2" />
           <ImgContainer>
-            <Img src={Portfolio1} alt="Portfolio1" />
+            <Img src={CSS} alt="CSS" />
           </ImgContainer>
           <TextContainer>
-            <Title>Simple Portfolio Website</Title>
-            <Explanation>
-              Created a simple Portfolio website using HTML and CSS.
-            </Explanation>
+            <Title>Introduction to CSS3</Title>
+            <Explanation>issued by Coursera</Explanation>
           </TextContainer>
         </Card>
       </CardRow>
@@ -196,45 +192,45 @@ const BeginnerProjects = () => {
         <Card>
           <Link externalLink="https://meghshyam.netlify.app" />
           <ImgContainer>
-            <Img src={TaskListApp} alt="TaskListApp" />
+            <Img src={Front} alt="Frontend" />
           </ImgContainer>
           <TextContainer>
-            <Title>Task-List App</Title>
-            <Explanation>Simple Task-List App using Angular</Explanation>
+            <Title>Become a Front-End Web Developer</Title>
+            <Explanation>issued by Lynda.com</Explanation>
           </TextContainer>
         </Card>
         <Card>
-          <Link externalLink="https://meghshyam.netlify.app" />
+          <Link externalLink="https://drive.google.com/file/d/1J_Q3adcxIaN4UoGCJB5ffK-MC5gRb2hg/view  " />
           <ImgContainer>
-            <Img src={Weather} alt="weather" />
+            <Img src={Angular} alt="Angular" />
           </ImgContainer>
           <TextContainer>
-            <Title>Weather</Title>
-            <Explanation>Weather App in Angular</Explanation>
+            <Title>Angular Essential Training</Title>
+            <Explanation>issued by LinkedIn Learning</Explanation>
           </TextContainer>
         </Card>
       </CardRow>
       <CardRow>
         <Card>
-          <Link externalLink="https://meghshyam.netlify.app" />
+          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/BC2SDRU458HP" />
           <ImgContainer>
-            <Img src={Covid19} alt="Covid19-Cases" />
+            <Img src={Java} alt="Java" />
           </ImgContainer>
           <TextContainer>
-            <Title>Covid19 Cases Track Website</Title>
-            <Explanation>
-              Created simple dashboard for tracking Covid19 cases using Angular
-            </Explanation>
+            <Title>Object Oriented Programming in Java</Title>
+            <Explanation>issued by Coursera</Explanation>
           </TextContainer>
         </Card>
         <Card>
-          <Link externalLink="https://meghshyam.netlify.app" />
+          <Link externalLink="https://www.credential.net/fa388064-5aa5-4d6f-b621-21fec73d39f5#gs.odon5j" />
           <ImgContainer>
-            <Img src={TicTacToe} alt="TicTacToe" />
+            <Img src={CNSS} alt="CNSS" />
           </ImgContainer>
           <TextContainer>
-            <Title>Tic-Tac-Toe</Title>
-            <Explanation>Simple Tic-Tac-Toe Game</Explanation>
+            <Title>ICSI | CNSS Certified Network Security Specialist</Title>
+            <Explanation>
+              issued by ICSI,UK (International CyberSecurity Institute)
+            </Explanation>
           </TextContainer>
         </Card>
       </CardRow>
@@ -253,23 +249,23 @@ const BeginnerProjects = () => {
         <>
           <CardRow>
             <Card>
-              <Link externalLink="https://meghshyam.netlify.app" />
+              <Link externalLink="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=3B1AD5E7C7ED49D5BC8051AC5B4DBEDF" />
               <ImgContainer>
-                <Img src={TODO} alt="todo" />
+                <Img src={Git} alt="Git" />
               </ImgContainer>
               <TextContainer>
-                <Title>TO-DO App</Title>
-                <Explanation>SImple TO-DO List App Using Angular</Explanation>
+                <Title>GitHub Essential Training</Title>
+                <Explanation>issued by Lynda.com</Explanation>
               </TextContainer>
             </Card>
             <Card>
-              <Link externalLink="https://meghshyam.netlify.app" />
+              <Link externalLink="https://www.academyeurope.org/certificates/66899714e0dfc4097bf93be9aca3b33b/" />
               <ImgContainer>
-                <Img src={CrudApp} alt="CrudApp" />
+                <Img src={DS} alt="DS" />
               </ImgContainer>
               <TextContainer>
-                <Title>Crud App</Title>
-                <Explanation>Created simple crud app in php.</Explanation>
+                <Title>Data Structure and algorithms</Title>
+                <Explanation>issued by European Open University</Explanation>
               </TextContainer>
             </Card>
           </CardRow>
