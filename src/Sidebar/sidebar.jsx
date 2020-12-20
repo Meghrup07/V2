@@ -68,7 +68,7 @@ const Line = styled.div`
   content: "";
   display: block;
   width: 1px;
-  height: 70px;
+  height: 60px;
   margin: 0px auto;
   background-color: white;
 `;
