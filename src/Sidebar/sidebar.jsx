@@ -125,7 +125,7 @@ const Sidebar = ({ handleToast }) => {
       <RightSideContainer>
         <SideText>
           <a href="https://api.whatsapp.com/send?phone=8806520498">
-            (+91) 8806520498
+            8806520498
           </a>
         </SideText>
         <Line />
