@@ -39,13 +39,13 @@ export const dataExperience = {
 };
 
 export const dataEducation = {
-  0: {
+  1: {
     main: "S. T. Gujar Jr. College 🎓",
-    expand: "Science (Senior Secondary School)",
+    expand: "Science (Higher Secondary School)",
     date: "( 2014 / 2016 )",
     country: "58.92%",
   },
-  1: {
+  0: {
     main: "North Maharashtra University🎓",
     expand: "Bachelor in Computer Application",
     date: "( 2017 / 2020 )",
