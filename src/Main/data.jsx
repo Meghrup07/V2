@@ -41,7 +41,7 @@ export const dataExperience = {
 export const dataEducation = {
   1: {
     main: "S. T. Gujar Jr. College 🎓",
-    expand: "Science (Higher Secondary School)",
+    expand: "Science (Senior Secondary School)",
     date: "( 2014 / 2016 )",
     country: "58.92%",
   },
