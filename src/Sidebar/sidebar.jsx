@@ -86,7 +86,7 @@ const Sidebar = ({ handleToast }) => {
       <LeftSideContainer>
         <SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
           <a
-            href="https://drive.google.com/file/d/1ke4fKRCA7XwpXi8jTj8lETDU6WMG5AeI/view"
+            href="https://drive.google.com/file/d/1MNeODOqoZ5-JrnDMKU_bBVW2GYrC59NG/view"
             target="_blank"
             rel="noopener noreferrer"
           >
