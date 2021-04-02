@@ -264,7 +264,7 @@ const BeginnerProjects = () => {
                 <Img src={DS} alt="DS" />
               </ImgContainer>
               <TextContainer>
-                <Title>ata Structure and algorithms</Title>
+                <Title>Data Structure and algorithms</Title>
                 <Explanation>issued by European Open University</Explanation>
               </TextContainer>
             </Card>
