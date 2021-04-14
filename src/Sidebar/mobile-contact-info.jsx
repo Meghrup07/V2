@@ -162,7 +162,7 @@ const MobileContactInfo = ({ handleToast }) => {
           whileTap={{ scale: 0.85 }}
         >
           <a
-            href="https://www.instagram.com/meghshyam_mali/"
+            href="https://www.instagram.com/meghshyam.07/"
             target="_blank"
             rel="noopener noreferrer"
           >
