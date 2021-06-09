@@ -55,10 +55,12 @@ const ColumnText = styled(motion.span)`
     text-align: center;
     font-size: 14px;
     flex: 0 0 130px;
-     whileHover={{
-              scaleX: [1, 1.2, 0.85, 1],
-              scaleY: [1, 0.8, 1.15, 1],
-            }}
+    whileHover= {
+       {
+        scalex: [1, 1.2, 0.85, 1];
+        scaley: [1, 0.8, 1.15, 1];
+      }
+    }
   }
 `;
 
@@ -74,81 +76,6 @@ const Education = () => {
             }}
             color={"#ffc200"}
           >
-            #Java
-          </ColumnText>
-        </TextContainer>
-        <TextContainer>
-          <ColumnText
-            whileHover={{
-              scaleX: [1, 1.2, 0.85, 1],
-              scaleY: [1, 0.8, 1.15, 1],
-            }}
-          >
-            #C
-          </ColumnText>
-        </TextContainer>
-        <TextContainer>
-          <ColumnText
-            whileHover={{
-              scaleX: [1, 1.2, 0.85, 1],
-              scaleY: [1, 0.8, 1.15, 1],
-            }}
-            color={"#ffc200"}
-          >
-            #Python
-          </ColumnText>
-        </TextContainer>
-        <TextContainer>
-          <ColumnText
-            whileHover={{
-              scaleX: [1, 1.2, 0.85, 1],
-              scaleY: [1, 0.8, 1.15, 1],
-            }}
-          >
-            #JavaScript
-          </ColumnText>
-        </TextContainer>
-        <TextContainer>
-          <ColumnText
-            whileHover={{
-              scaleX: [1, 1.2, 0.85, 1],
-              scaleY: [1, 0.8, 1.15, 1],
-            }}
-            color={"#ffc200"}
-          >
-            #WordPress
-          </ColumnText>
-        </TextContainer>
-      </SkillsColumn>
-      <SkillsColumn>
-        <TextContainer>
-          <ColumnText
-            whileHover={{
-              scaleX: [1, 1.2, 0.85, 1],
-              scaleY: [1, 0.8, 1.15, 1],
-            }}
-          >
-            #C++
-          </ColumnText>
-        </TextContainer>
-        <TextContainer>
-          <ColumnText
-            whileHover={{
-              scaleX: [1, 1.2, 0.85, 1],
-              scaleY: [1, 0.8, 1.15, 1],
-            }}
-            color={"#ffc200"}
-          >
-            #CSS
-          </ColumnText>
-        </TextContainer>
-        <TextContainer>
-          <ColumnText
-            whileHover={{
-              scaleX: [1, 1.2, 0.85, 1],
-              scaleY: [1, 0.8, 1.15, 1],
-            }}
-          >
             #HTML5
           </ColumnText>
         </TextContainer>
@@ -158,9 +85,8 @@ const Education = () => {
               scaleX: [1, 1.2, 0.85, 1],
               scaleY: [1, 0.8, 1.15, 1],
             }}
-            color={"#ffc200"}
           >
-            #C#.Net
+            #React
           </ColumnText>
         </TextContainer>
         <TextContainer>
@@ -169,21 +95,9 @@ const Education = () => {
               scaleX: [1, 1.2, 0.85, 1],
               scaleY: [1, 0.8, 1.15, 1],
             }}
+            color={"#ffc200"}
           >
             #Git
-          </ColumnText>
-        </TextContainer>
-      </SkillsColumn>
-      <SkillsColumn>
-        <TextContainer>
-          <ColumnText
-            whileHover={{
-              scaleX: [1, 1.2, 0.85, 1],
-              scaleY: [1, 0.8, 1.15, 1],
-            }}
-            color={"#ffc200"}
-          >
-            #Mysql
           </ColumnText>
         </TextContainer>
         <TextContainer>
@@ -204,7 +118,30 @@ const Education = () => {
             }}
             color={"#ffc200"}
           >
-            #React
+            #MongoDB
+          </ColumnText>
+        </TextContainer>
+      </SkillsColumn>
+      <SkillsColumn>
+        <TextContainer>
+          <ColumnText
+            whileHover={{
+              scaleX: [1, 1.2, 0.85, 1],
+              scaleY: [1, 0.8, 1.15, 1],
+            }}
+          >
+            #CSS3
+          </ColumnText>
+        </TextContainer>
+        <TextContainer>
+          <ColumnText
+            whileHover={{
+              scaleX: [1, 1.2, 0.85, 1],
+              scaleY: [1, 0.8, 1.15, 1],
+            }}
+            color={"#ffc200"}
+          >
+            #JavaScript
           </ColumnText>
         </TextContainer>
         <TextContainer>
@@ -214,7 +151,72 @@ const Education = () => {
               scaleY: [1, 0.8, 1.15, 1],
             }}
           >
-            #PHP
+            #WordPress
+          </ColumnText>
+        </TextContainer>
+        <TextContainer>
+          <ColumnText
+            whileHover={{
+              scaleX: [1, 1.2, 0.85, 1],
+              scaleY: [1, 0.8, 1.15, 1],
+            }}
+            color={"#ffc200"}
+          >
+            #.NET
+          </ColumnText>
+        </TextContainer>
+        <TextContainer>
+          <ColumnText
+            whileHover={{
+              scaleX: [1, 1.2, 0.85, 1],
+              scaleY: [1, 0.8, 1.15, 1],
+            }}
+          >
+            #SQL Server
+          </ColumnText>
+        </TextContainer>
+      </SkillsColumn>
+      <SkillsColumn>
+        <TextContainer>
+          <ColumnText
+            whileHover={{
+              scaleX: [1, 1.2, 0.85, 1],
+              scaleY: [1, 0.8, 1.15, 1],
+            }}
+            color={"#ffc200"}
+          >
+            #Bootstrap
+          </ColumnText>
+        </TextContainer>
+        <TextContainer>
+          <ColumnText
+            whileHover={{
+              scaleX: [1, 1.2, 0.85, 1],
+              scaleY: [1, 0.8, 1.15, 1],
+            }}
+          >
+            #jQuery
+          </ColumnText>
+        </TextContainer>
+        <TextContainer>
+          <ColumnText
+            whileHover={{
+              scaleX: [1, 1.2, 0.85, 1],
+              scaleY: [1, 0.8, 1.15, 1],
+            }}
+            color={"#ffc200"}
+          >
+            #Nodejs
+          </ColumnText>
+        </TextContainer>
+        <TextContainer>
+          <ColumnText
+            whileHover={{
+              scaleX: [1, 1.2, 0.85, 1],
+              scaleY: [1, 0.8, 1.15, 1],
+            }}
+          >
+            #Java
           </ColumnText>
         </TextContainer>
         <TextContainer>

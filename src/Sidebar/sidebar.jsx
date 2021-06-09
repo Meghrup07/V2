@@ -38,7 +38,6 @@ const SideText = styled.div`
     text-decoration: none;
   }
   a:hover {
-    font-size: 16.5px;
     color: #ffc200;
     text-decoration: none;
   }
@@ -86,7 +85,7 @@ const Sidebar = ({ handleToast }) => {
       <LeftSideContainer>
         <SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
           <a
-            href="https://drive.google.com/file/d/1zofW8RHb3Gl3CkPReUHaKFTF2S4uij6p/view?usp=sharing"
+            href="https://drive.google.com/file/d/11tl7TUvSauLZH4CKqwfRx9-63rn1Jqjx/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

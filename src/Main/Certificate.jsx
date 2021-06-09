@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 import { ExternalLinkOutline } from "@styled-icons/evaicons-outline";
 import Git from "../assets/Git.png";
 import Angular from "../assets/Angular.png";
-import CNSS from "../assets/CNSS.png";
+import JavaScript from "../assets/javascript.png";
 import Java from "../assets/java.png";
 import CSS from "../assets/css.png";
 import HTML from "../assets/html.png";
-import DS from "../assets/DS.png";
+import React1 from "../assets/React.png";
 import Front from "../assets/project.jpg";
 
 const Container = styled(motion.div)`
@@ -79,13 +79,14 @@ const TextContainer = styled.div`
 `;
 
 const Title = styled.h4`
-	font-size: 22px;
-	margin: 0;
-	padding: 0;
-	color: #ffc200;
-	font-family: 'Calibre', sans-serif;
-	@media only screen and (max-width: 450px) {
-	font-size: 20px;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  color: #ffc200;
+  font-family: "Calibre", sans-serif;
+  @media only screen and (max-width: 450px) {
+    font-size: 20px;
+  }
 `;
 
 const Explanation = styled.p`
@@ -190,47 +191,48 @@ const BeginnerProjects = () => {
       </CardRow>
       <CardRow>
         <Card>
-          <Link externalLink="https://meghshyam.netlify.app" />
+          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/KLSREFUGLRNT" />
           <ImgContainer>
-            <Img src={Front} alt="Frontend" />
+            <Img src={React1} alt="React" />
           </ImgContainer>
           <TextContainer>
-            <Title>Become a Front-End Web Developer</Title>
-            <Explanation>issued by LinkedIn Learning</Explanation>
+            <Title>Front-End Web Development with React</Title>
+            <Explanation>issued by Coursera</Explanation>
           </TextContainer>
         </Card>
+
         <Card>
-          <Link externalLink="https://drive.google.com/file/d/1J_Q3adcxIaN4UoGCJB5ffK-MC5gRb2hg/view  " />
+          <Link externalLink="https://meghshyam.netlify.app/" />
           <ImgContainer>
-            <Img src={Angular} alt="Angular" />
+            <Img src={Front} alt="WebDevelopment" />
           </ImgContainer>
           <TextContainer>
-            <Title>Angular Essential Training</Title>
-            <Explanation>issued by LinkedIn Learning</Explanation>
+            <Title>The Complete 2021 Web Development Bootcamp</Title>
+            <Explanation>issued by Udemy</Explanation>
           </TextContainer>
         </Card>
       </CardRow>
       <CardRow>
         <Card>
-          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/BC2SDRU458HP" />
+          <Link externalLink="https://www.udemy.com/certificate/UC-7f419f22-ae4d-48e2-80d2-bdd4c9a1e6ed/" />
           <ImgContainer>
-            <Img src={Java} alt="Java" />
+            <Img src={JavaScript} alt="Angular" />
           </ImgContainer>
           <TextContainer>
-            <Title>Object Oriented Programming in Java</Title>
-            <Explanation>issued by Coursera</Explanation>
+            <Title>
+              Complete Javascript Course for Beginners with jQuery & AJAX
+            </Title>
+            <Explanation>issued by Udemy</Explanation>
           </TextContainer>
         </Card>
         <Card>
-          <Link externalLink="https://www.credential.net/fa388064-5aa5-4d6f-b621-21fec73d39f5#gs.odon5j" />
+          <Link externalLink="https://drive.google.com/file/d/1BKXZcYz4tjkgocnlPiWcVoo9Q1xAFnay/view" />
           <ImgContainer>
-            <Img src={CNSS} alt="CNSS" />
+            <Img src={Git} alt="Git" />
           </ImgContainer>
           <TextContainer>
-            <Title>ICSI | CNSS Certified Network Security Specialist</Title>
-            <Explanation>
-              issued by ICSI,UK (International CyberSecurity Institute)
-            </Explanation>
+            <Title>GitHub Essential Training</Title>
+            <Explanation>issued by Lynda.com</Explanation>
           </TextContainer>
         </Card>
       </CardRow>
@@ -249,23 +251,23 @@ const BeginnerProjects = () => {
         <>
           <CardRow>
             <Card>
-              <Link externalLink="https://drive.google.com/file/d/1BKXZcYz4tjkgocnlPiWcVoo9Q1xAFnay/view" />
+              <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/BC2SDRU458HP" />
               <ImgContainer>
-                <Img src={Git} alt="Git" />
+                <Img src={Java} alt="Java" />
               </ImgContainer>
               <TextContainer>
-                <Title>GitHub Essential Training</Title>
-                <Explanation>issued by Lynda.com</Explanation>
+                <Title>Object Oriented Programming in Java</Title>
+                <Explanation>issued by Coursera</Explanation>
               </TextContainer>
             </Card>
             <Card>
-              <Link externalLink="https://www.academyeurope.org/certificates/66899714e0dfc4097bf93be9aca3b33b/" />
+              <Link externalLink="https://drive.google.com/file/d/1J_Q3adcxIaN4UoGCJB5ffK-MC5gRb2hg/view" />
               <ImgContainer>
-                <Img src={DS} alt="DS" />
+                <Img src={Angular} alt="Angular" />
               </ImgContainer>
               <TextContainer>
-                <Title>Data Structure and algorithms</Title>
-                <Explanation>issued by European Open University</Explanation>
+                <Title>Angular Essential Training</Title>
+                <Explanation>issued by LinkedIn Learning</Explanation>
               </TextContainer>
             </Card>
           </CardRow>

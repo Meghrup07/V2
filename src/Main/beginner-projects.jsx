@@ -104,13 +104,14 @@ const TextContainer = styled.div`
 `;
 
 const Title = styled.h4`
-	font-size: 22px;
-	margin: 0;
-	padding: 0;
-	color: #ffc200;
-	font-family: 'Calibre', sans-serif;
-	@media only screen and (max-width: 450px) {
-	font-size: 20px;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  color: #ffc200;
+  font-family: "Calibre", sans-serif;
+  @media only screen and (max-width: 450px) {
+    font-size: 20px;
+  }
 `;
 
 const Explanation = styled.p`
@@ -296,13 +297,13 @@ const BeginnerProjects = () => {
             <Explanation>Weather App in Angular</Explanation>
             <Technology>
               <TechItems>
+                <Hastag>#</Hastag>React
+              </TechItems>
+              <TechItems>
                 <Hastag>#</Hastag>HTML
               </TechItems>
               <TechItems>
-                <Hastag>#</Hastag>Angular
-              </TechItems>
-              <TechItems>
-                <Hastag>#</Hastag>JavaScript
+                <Hastag>#</Hastag>CSS
               </TechItems>
               <TechItems>
                 <Hastag>#</Hastag>Api
@@ -393,7 +394,7 @@ const BeginnerProjects = () => {
                     <Hastag>#</Hastag>HTML & CSS
                   </TechItems>
                   <TechItems>
-                    <Hastag>#</Hastag>Angular
+                    <Hastag>#</Hastag>React
                   </TechItems>
                 </Technology>
               </TextContainer>
