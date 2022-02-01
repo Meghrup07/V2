@@ -190,17 +190,17 @@ const BeginnerProjects = () => {
         </Card>
       </CardRow>
       <CardRow>
-        <Card>
-          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/KLSREFUGLRNT" />
-          <ImgContainer>
-            <Img src={React1} alt="React" />
-          </ImgContainer>
-          <TextContainer>
-            <Title>Front-End Web Development with React</Title>
-            <Explanation>issued by Coursera</Explanation>
-          </TextContainer>
-        </Card>
-
+       <Card>
+              <Link externalLink="https://drive.google.com/file/d/1J_Q3adcxIaN4UoGCJB5ffK-MC5gRb2hg/view" />
+              <ImgContainer>
+                <Img src={Angular} alt="Angular" />
+              </ImgContainer>
+              <TextContainer>
+                <Title>Angular Essential Training</Title>
+                <Explanation>issued by LinkedIn Learning</Explanation>
+              </TextContainer>
+            </Card>
+        
         <Card>
           <Link externalLink="https://meghshyam.netlify.app/" />
           <ImgContainer>
@@ -260,16 +260,17 @@ const BeginnerProjects = () => {
                 <Explanation>issued by Coursera</Explanation>
               </TextContainer>
             </Card>
-            <Card>
-              <Link externalLink="https://drive.google.com/file/d/1J_Q3adcxIaN4UoGCJB5ffK-MC5gRb2hg/view" />
-              <ImgContainer>
-                <Img src={Angular} alt="Angular" />
-              </ImgContainer>
-              <TextContainer>
-                <Title>Angular Essential Training</Title>
-                <Explanation>issued by LinkedIn Learning</Explanation>
-              </TextContainer>
-            </Card>
+           <Card>
+          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/KLSREFUGLRNT" />
+          <ImgContainer>
+            <Img src={React1} alt="React" />
+          </ImgContainer>
+          <TextContainer>
+            <Title>Front-End Web Development with React</Title>
+            <Explanation>issued by Coursera</Explanation>
+          </TextContainer>
+        </Card>
+
           </CardRow>
         </>
       )}

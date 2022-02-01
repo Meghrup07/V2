@@ -297,7 +297,7 @@ const BeginnerProjects = () => {
             <Explanation>Weather App in Angular</Explanation>
             <Technology>
               <TechItems>
-                <Hastag>#</Hastag>React
+                <Hastag>#</Hastag>Angular
               </TechItems>
               <TechItems>
                 <Hastag>#</Hastag>HTML
@@ -394,7 +394,7 @@ const BeginnerProjects = () => {
                     <Hastag>#</Hastag>HTML & CSS
                   </TechItems>
                   <TechItems>
-                    <Hastag>#</Hastag>React
+                    <Hastag>#</Hastag>Angular
                   </TechItems>
                 </Technology>
               </TextContainer>
