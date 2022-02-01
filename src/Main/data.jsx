@@ -19,7 +19,7 @@ export const dataExperience = {
       first: "Worked on Web Development..",
       second: "Design and Develop Web Sites and Web Applictions.",
       third:
-        "Worked on Technologies like HTMl5, CSS3, jQuery, JavaScript, React, Bootstrap and WordPress.",
+        "Worked on Technologies like HTMl5, CSS3, jQuery, JavaScript, Angular, Sass and Bootstrap.",
     },
     1: {
       title: "@kloudone 🏢",

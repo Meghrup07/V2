@@ -140,8 +140,8 @@ const About = ({ aboutRef }) => {
           <ParragraphDecoration>{"<p>"} </ParragraphDecoration>
           <Text>
             I'm an Experienced Software Engineer. Skilled in MySQL database and
-            technologies C, C++, C#.Net, HTML, CSS, Java, Angular, WordPress,
-            PHP and Python. And also I'm a web developer who loves to build
+            technologies C, C++, C#.Net, HTML, CSS, Sass, Java, Angular, WordPress. 
+            And also I'm a web developer who loves to build
             website to solve other people's problems. Experience of leading a
             team of professionals for small to medium sized projects. Highly
             interested in Automation frontier in software development. Strong
@@ -173,7 +173,7 @@ const About = ({ aboutRef }) => {
             TechCrunch and Instructables. I loved the open-source community so I
             got into Web development, C programming and embedded systems, a few
             stacks I also worked with later on when I got into college include
-            HTML & CSS, Java, JavaScript, C#.Net, Angular, PHP, Python and
+            HTML & CSS, Sass, Java, JavaScript, C#.Net, Angular, PHP and
             WordPress. I've also been able to work on a variety of other
             interesting and meaningful projects daily.
           </Text>
