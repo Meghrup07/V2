@@ -173,7 +173,7 @@ const About = ({ aboutRef }) => {
             TechCrunch and Instructables. I loved the open-source community so I
             got into Web development, C programming and embedded systems, a few
             stacks I also worked with later on when I got into college include
-            HTML & CSS, Sass, Java, JavaScript, C#.Net, Angular, PHP and
+            HTML & CSS, Sass, Java, JavaScript, C#.Net, Angular and
             WordPress. I've also been able to work on a variety of other
             interesting and meaningful projects daily.
           </Text>

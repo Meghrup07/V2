@@ -25,15 +25,14 @@ export const dataExperience = {
       title: "@kloudone 🏢",
       date: "June 2020 - Sept. 2020",
       first: "Worked on Front-End Development.",
-      second: "Worked on SQL Server Database and Terraform.",
-      third: "Created and Deployed APIs.",
+      second: "Design and Develop Web Sites.",
+      third: "Worked on Technologies like HTMl5, CSS3, jQuery, JavaScript, Angular.",
     },
     2: {
       title: "@JPMorgan Chase & Co. 🏢",
       date: "May 2020 - June  2020",
       first: "Worked on Frontend Web Development.",
-      second: "Data Visualization with Perspective.",
-      third: "Establishing Financial Data Feeds.",
+      second: "Worked on Technologies like HTMl5, CSS3, jQuery, Bootstrap.",
     },
   },
 };
