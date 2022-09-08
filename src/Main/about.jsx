@@ -137,7 +137,6 @@ const About = ({ aboutRef }) => {
       </Title>
       <Body>
         <TextContainer>
-          <ParragraphDecoration>{"<p>"} </ParragraphDecoration>
           <Text>
             I'm an Experienced Software Engineer. Skilled in MySQL database and
             technologies C, C++, C#.Net, HTML, CSS, Sass, Java, Angular, WordPress. 
@@ -148,9 +147,7 @@ const About = ({ aboutRef }) => {
             information technology professional with a Bachelor Of Computer
             Application.
           </Text>
-          <ParragraphDecoration>{"</p>"} </ParragraphDecoration>
           <br />
-          <ParragraphDecoration>{"<p>"} </ParragraphDecoration>
           <Text>
             I enjoy creating things that live both on the internet and in
             reality, whether that be websites, applications, embedded systems or
@@ -161,11 +158,8 @@ const About = ({ aboutRef }) => {
             been overly engrossed in the Web development and the vast amount of
             knowledge it holds.
           </Text>
-          <ParragraphDecoration>{"</p>"} </ParragraphDecoration>
           <br />
-          <TextDecoration>{"<br/>"}</TextDecoration>
           <br />
-          <ParragraphDecoration>{"<p>"} </ParragraphDecoration>
           <Text>
             I started by learning the basic principles of how computers are
             made, how they work and followed a lot of DIYs by occasionally
@@ -177,18 +171,14 @@ const About = ({ aboutRef }) => {
             WordPress. I've also been able to work on a variety of other
             interesting and meaningful projects daily.
           </Text>
-          <ParragraphDecoration>{"</p>"} </ParragraphDecoration>
           <br />
-          <TextDecoration>{"<br/>"}</TextDecoration>
           <br />
-          <ParragraphDecoration>{"<p>"} </ParragraphDecoration>
           <Text>
             I'm currently looking for new opportunities and I'm always open to
             new projects, ideas, job opportunities and new connections. I love
             building new stuff so just send me a message or call me and I will
             reply 100%.
           </Text>
-          <ParragraphDecoration>{"</p>"} </ParragraphDecoration>
         </TextContainer>
       </Body>
     </Container>

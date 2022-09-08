@@ -231,7 +231,7 @@ const Hero = ({ didScroll, handleToast, heroRef }) => {
             transition={{ duration: 2 }}
           >
             {
-              "I'm a self-taught software engineer, a Master in Computer Application by degree🎓 and i am based in Vadodara City, India. I'm 24 years old and I like building(and designing) websites, applications, and everything in between.  I speak Marathi, Hindi and English fluently."
+              "I'm a self-taught software engineer, a Master in Computer Application by degree🎓 and i am based in Vadodara City, India. I'm 24 years old and I like building(and designing) websites, applications, and everything in between.  I speak Marathi, Hindi, Gujarati and English fluently."
             }
           </Description>
         </Intro>

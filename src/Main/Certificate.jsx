@@ -261,12 +261,12 @@ const BeginnerProjects = () => {
               </TextContainer>
             </Card>
            <Card>
-          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/KLSREFUGLRNT" />
+          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/6G95CRS8HSW9" />
           <ImgContainer>
-            <Img src={React1} alt="React" />
+            <Img src={Front} alt="WebDevelopment" />
           </ImgContainer>
           <TextContainer>
-            <Title>Front-End Web Development with React</Title>
+            <Title>Front-End JavaScript Frameworks: Angular</Title>
             <Explanation>issued by Coursera</Explanation>
           </TextContainer>
         </Card>
