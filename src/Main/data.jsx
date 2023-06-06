@@ -3,13 +3,13 @@
 export const dataExperience = {
   list: {
     0: {
-      main: "Software Engineer",
+      main: "Software Developer",
     },
     1: {
-      main: "Software Engineer Trainee",
+      main: "Software Engineer",
     },
     2: {
-      main: "Software Engineer Intern",
+      main: "Software Engineer Trainee",
     },
   },
   info: {
