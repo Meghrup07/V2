@@ -112,7 +112,7 @@ const Sidebar = ({ handleToast }) => {
         </SideIcon>
         <SideIcon whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.85 }}>
           <a
-            href="https://www.instagram.com/meghshyam.07/"
+            href="https://instagram.com/meghshyam.7?igshid=MjEwN2IyYWYwYw=="
             target="_blank"
             rel="noopener noreferrer"
           >
