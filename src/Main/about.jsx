@@ -138,10 +138,11 @@ const About = ({ aboutRef }) => {
       <Body>
         <TextContainer>
           <Text>
-            I'm an Experienced Software Engineer. Skilled in MySQL database and
-            technologies C, C++, C#.Net, HTML, CSS, Sass, Java, Angular, WordPress. 
-            And also I'm a web developer who loves to build
-            website to solve other people's problems. Experience of leading a
+            I'm an Experienced Software Engineer. Skilled in MySQL 
+            database and technologies Angular, HTML, CSS, SCSS, Java, 
+             JavaScript and jQuery
+            And also I'm a frontend developer who loves to build
+            website and webapp to solve other people's problems. Experience of leading a
             team of professionals for small to medium sized projects. Highly
             interested in Automation frontier in software development. Strong
             information technology professional with a Bachelor Of Computer
