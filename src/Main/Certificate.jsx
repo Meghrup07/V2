@@ -200,7 +200,19 @@ const BeginnerProjects = () => {
                 <Explanation>issued by LinkedIn Learning</Explanation>
               </TextContainer>
             </Card>
-        
+          <Card>
+          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/6G95CRS8HSW9" />
+          <ImgContainer>
+            <Img src={Front} alt="WebDevelopment" />
+          </ImgContainer>
+          <TextContainer>
+            <Title>Front-End JavaScript Frameworks: Angular</Title>
+            <Explanation>issued by Coursera</Explanation>
+          </TextContainer>
+        </Card>
+      
+      </CardRow>
+      <CardRow>
         <Card>
           <Link externalLink="https://meghshyam.netlify.app/" />
           <ImgContainer>
@@ -211,8 +223,6 @@ const BeginnerProjects = () => {
             <Explanation>issued by Udemy</Explanation>
           </TextContainer>
         </Card>
-      </CardRow>
-      <CardRow>
         <Card>
           <Link externalLink="https://www.udemy.com/certificate/UC-7f419f22-ae4d-48e2-80d2-bdd4c9a1e6ed/" />
           <ImgContainer>
@@ -223,16 +233,6 @@ const BeginnerProjects = () => {
               Complete Javascript Course for Beginners with jQuery & AJAX
             </Title>
             <Explanation>issued by Udemy</Explanation>
-          </TextContainer>
-        </Card>
-        <Card>
-          <Link externalLink="https://drive.google.com/file/d/1BKXZcYz4tjkgocnlPiWcVoo9Q1xAFnay/view" />
-          <ImgContainer>
-            <Img src={Git} alt="Git" />
-          </ImgContainer>
-          <TextContainer>
-            <Title>GitHub Essential Training</Title>
-            <Explanation>issued by Lynda.com</Explanation>
           </TextContainer>
         </Card>
       </CardRow>
@@ -260,14 +260,14 @@ const BeginnerProjects = () => {
                 <Explanation>issued by Coursera</Explanation>
               </TextContainer>
             </Card>
-           <Card>
-          <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/6G95CRS8HSW9" />
+            <Card>
+          <Link externalLink="https://drive.google.com/file/d/1BKXZcYz4tjkgocnlPiWcVoo9Q1xAFnay/view" />
           <ImgContainer>
-            <Img src={Front} alt="WebDevelopment" />
+            <Img src={Git} alt="Git" />
           </ImgContainer>
           <TextContainer>
-            <Title>Front-End JavaScript Frameworks: Angular</Title>
-            <Explanation>issued by Coursera</Explanation>
+            <Title>GitHub Essential Training</Title>
+            <Explanation>issued by Lynda.com</Explanation>
           </TextContainer>
         </Card>
 
