@@ -14,14 +14,14 @@ export const dataExperience = {
   },
   info: {
     0: {
-      title: "ekZero Enterprise Software Services Pvt. Ltd.",
-      date: "Sept 2020 - Present",
+      title: "ekZero Enterprise Software Services Pvt. Ltd. 🏢",
+      date: "Sept 2022 - Present",
       first: "Worked on Frontend Development.",
       second: "Worked on Technologies like HTMl5, CSS3, SCSS, jQuery, Bootstrap and Angular",
       third: "Integrated REST API's in Angular."
     },
     1: {
-      title: "@Helios Solutions",
+      title: "Helios Solutions 🏢",
       date: "Oct 2020 - Aug 2022",
       first: "Worked on Web Development..",
       second: "Design and Develop Web Sites and Web Applictions.",
@@ -29,7 +29,7 @@ export const dataExperience = {
         "Worked on Technologies like HTMl5, CSS3, jQuery, JavaScript, Angular, Sass and Bootstrap.",
     },
     2: {
-      title: "@kloudone 🏢",
+      title: "kloudone 🏢",
       date: "June 2020 - Sept 2020",
       first: "Worked on Front-End Development.",
       second: "Design and Develop Web Sites.",
