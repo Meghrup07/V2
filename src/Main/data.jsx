@@ -22,7 +22,7 @@ export const dataExperience = {
     },
     1: {
       title: "Helios Solutions 🏢",
-      date: "Oct 2020 - Aug 2022",
+      date: "Dec 2020 - Aug 2022",
       first: "Worked on Web Development..",
       second: "Design and Develop Web Sites and Web Applictions.",
       third:
