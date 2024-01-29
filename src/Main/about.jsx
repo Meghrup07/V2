@@ -11,7 +11,7 @@ const Container = styled(motion.section)`
   padding-right: 170px;
   margin: 0px auto;
   max-width: 1600px;
-  min-height: 100vh;
+  min-height: 70vh;
   color: white;
   overflow: hidden;
   font-family: "Asap", sans-serif;
