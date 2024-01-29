@@ -19,10 +19,7 @@ export const dataExperience = {
     0: {
       title: "IndoWorld Consulting & Technology Services Pvt. Ltd. 🏢",
       date: "Aug 2023 - Present",
-      first: "Worked on Web Development..",
-      second: "Design and Develop Web Sites and Web Applictions.",
-      third:
-        "Worked on Technologies like HTMl5, CSS3, jQuery, JavaScript, Angular, Sass and Bootstrap.",
+      first: "Developed React applications using Redux Toolkit state management and RESTful APIs. Developed RESTful APIs using Django Rest Framework for complex data-driven applications. Developed and maintained web applications using Django, HTML5, CSS3, JavaScript, jQuery and MySQL.",
     },
     1: {
       title: "ekZero Enterprise Software Services Pvt. Ltd. 🏢",
