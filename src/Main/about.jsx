@@ -139,7 +139,7 @@ const About = ({ aboutRef }) => {
         <TextContainer>
           <Text>
             I'm an Experienced Software Engineer. Skilled in MySQL 
-            database and technologies Angular, HTML, CSS, SCSS, Java, 
+            database and technologies Angular, React, HTML, CSS, SCSS, Django, 
              JavaScript and jQuery
             And also I'm a frontend developer who loves to build
             website and webapp to solve other people's problems. Experience of leading a
@@ -161,7 +161,7 @@ const About = ({ aboutRef }) => {
           </Text>
           <br />
           <br />
-          <Text>
+{/*           <Text>
             I started by learning the basic principles of how computers are
             made, how they work and followed a lot of DIYs by occasionally
             visiting websites such as XDA Developers, Wired, The Verge,
@@ -173,7 +173,7 @@ const About = ({ aboutRef }) => {
             interesting and meaningful projects daily.
           </Text>
           <br />
-          <br />
+          <br /> */}
           <Text>
             I'm currently looking for new opportunities and I'm always open to
             new projects, ideas, job opportunities and new connections. I love
