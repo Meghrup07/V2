@@ -219,7 +219,7 @@ const BeginnerProjects = () => {
             <Img src={Front} alt="WebDevelopment" />
           </ImgContainer>
           <TextContainer>
-            <Title>The Complete 2021 Web Development Bootcamp</Title>
+            <Title>The Complete 2024 Web Development Bootcamp</Title>
             <Explanation>issued by Udemy</Explanation>
           </TextContainer>
         </Card>
@@ -251,12 +251,12 @@ const BeginnerProjects = () => {
         <>
           <CardRow>
             <Card>
-              <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/BC2SDRU458HP" />
+              <Link externalLink="https://www.coursera.org/account/accomplishments/certificate/KLSREFUGLRNT" />
               <ImgContainer>
                 <Img src={Java} alt="Java" />
               </ImgContainer>
               <TextContainer>
-                <Title>Object Oriented Programming in Java</Title>
+                <Title>Front-End Web Development with React</Title>
                 <Explanation>issued by Coursera</Explanation>
               </TextContainer>
             </Card>
