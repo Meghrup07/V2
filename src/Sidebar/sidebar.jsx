@@ -87,8 +87,7 @@ const Sidebar = ({ handleToast }) => {
           <a
             href="https://drive.google.com/file/d/1Ju_tDqX6FlTJXecNiWthqvcLlH39vAZi/view?usp=sharing"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             <FilePdf />
           </a>
         </SideIcon>
