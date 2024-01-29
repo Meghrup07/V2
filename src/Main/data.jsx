@@ -3,24 +3,33 @@
 export const dataExperience = {
   list: {
     0: {
-      main: "Software Developer",
+      main: "Solution Engineer",
     },
     1: {
-      main: "Software Engineer",
+      main: "Software Developer",
     },
     2: {
+      main: "Software Engineer",
+    },
+    3: {
       main: "Software Engineer Trainee",
     },
   },
   info: {
     0: {
-      title: "ekZero Enterprise Software Services Pvt. Ltd. 🏢",
-      date: "Sept 2022 - Present",
-      first: "Worked on Frontend Development.",
-      second: "Worked on Technologies like HTMl5, CSS3, SCSS, jQuery, Bootstrap and Angular",
-      third: "Integrated REST API's in Angular."
+      title: "IndoWorld Consulting & Technology Services Pvt. Ltd. 🏢",
+      date: "Aug 2023 - Present",
+      first: "Worked on Web Development..",
+      second: "Design and Develop Web Sites and Web Applictions.",
+      third:
+        "Worked on Technologies like HTMl5, CSS3, jQuery, JavaScript, Angular, Sass and Bootstrap.",
     },
     1: {
+      title: "ekZero Enterprise Software Services Pvt. Ltd. 🏢",
+      date: "Sept 2022 - Aug 2023",
+      first: "Contributed to Frontend Development, proficiently working with technologies such as HTML5, CSS3, SCSS, jQuery, Bootstrap and Angular. Successfully integrated REST APIs within the Angular framework during the tenure. Collaborated with backend developers to integrate RESTful APIs into the application.",
+    },
+    2: {
       title: "Helios Solutions 🏢",
       date: "Dec 2020 - Aug 2022",
       first: "Worked on Web Development..",
@@ -28,7 +37,7 @@ export const dataExperience = {
       third:
         "Worked on Technologies like HTMl5, CSS3, jQuery, JavaScript, Angular, Sass and Bootstrap.",
     },
-    2: {
+    3: {
       title: "kloudone 🏢",
       date: "June 2020 - Sept 2020",
       first: "Worked on Front-End Development.",
