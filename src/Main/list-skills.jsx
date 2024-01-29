@@ -108,10 +108,10 @@ const Education = () => {
             }}
             color={"#ffc200"}
           >
-            #MongoDB
+            #MySQL
           </ColumnText>
         </TextContainer>
-        <TextContainer>
+{/*         <TextContainer>
           <ColumnText
             whileHover={{
               scaleX: [1, 1.2, 0.85, 1],
@@ -121,7 +121,7 @@ const Education = () => {
           >
             #Sass
           </ColumnText>
-        </TextContainer>
+        </TextContainer> */}
       </SkillsColumn>
       <SkillsColumn>
         <TextContainer>
@@ -153,7 +153,7 @@ const Education = () => {
             }}
             color={"#ffc200"}
           >
-            #.NET
+            #React
           </ColumnText>
         </TextContainer>
         <TextContainer>
@@ -163,7 +163,7 @@ const Education = () => {
               scaleY: [1, 0.8, 1.15, 1],
             }}
           >
-            #SQL Server
+            #Frontend Development
           </ColumnText>
         </TextContainer>
       </SkillsColumn>
@@ -196,7 +196,7 @@ const Education = () => {
               scaleY: [1, 0.8, 1.15, 1],
             }}
           >
-            #Java
+            #Django
           </ColumnText>
         </TextContainer>
         <TextContainer>
@@ -207,7 +207,7 @@ const Education = () => {
             }}
             color={"#ffc200"}
           >
-            #Photoshop
+            #SCSS
           </ColumnText>
         </TextContainer>
       </SkillsColumn>
