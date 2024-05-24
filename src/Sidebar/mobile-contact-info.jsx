@@ -87,7 +87,7 @@ const MobileContactInfo = ({ handleToast }) => {
           whileTap={{ scale: 0.85 }}
         >
           <a
-            href="https://drive.google.com/file/d/1bP8GrkvK5BFrHXP5lSP1cwhPZj7veeJX/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CyUURDgsipsbAiIRpUYzAtiJyqavv1UD/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer">
             <FilePdf />
