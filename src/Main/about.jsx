@@ -139,7 +139,7 @@ const About = ({ aboutRef }) => {
         <TextContainer>
           <Text>
             I'm an Experienced Software Engineer. Skilled in MySQL 
-            database and technologies Angular, React, HTML, CSS, SCSS, Django, 
+            database and technologies Angular, React, HTML, CSS, SCSS, ASP.NET Core, 
              JavaScript and jQuery
             And also I'm a frontend developer who loves to build
             website and webapp to solve other people's problems. Experience of leading a
