@@ -196,7 +196,7 @@ const Education = () => {
               scaleY: [1, 0.8, 1.15, 1],
             }}
           >
-            #Django
+            #ASP.NET Core
           </ColumnText>
         </TextContainer>
         <TextContainer>
