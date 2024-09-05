@@ -202,6 +202,56 @@ const BeginnerProjects = () => {
       <CardRow>
         <Card>
           <Link
+            githubLink="https://github.com/Meghrup07/Angular-Asp.Net"
+            externalLink="https://github.com/Meghrup07/Angular-Asp.Net"
+          />
+
+          <ImgContainer>
+            <Img src={CrudApp} alt="CrudApp" />
+          </ImgContainer>
+          <TextContainer>
+            <Title>Dating App</Title>
+            <Explanation>
+              Dating web application created using Angular and Asp.Net WebApi
+            </Explanation>
+            <Technology>
+              <TechItems>
+                <Hastag>#</Hastag>Angular
+              </TechItems>
+              <TechItems>
+                <Hastag>#</Hastag>Asp.Net WebApi
+              </TechItems>
+            </Technology>
+          </TextContainer>
+        </Card>
+        <Card>
+          <Link
+            githubLink="https://github.com/Meghrup07/InventoryManagement"
+            externalLink="https://github.com/Meghrup07/InventoryManagement"
+          />
+          <ImgContainer>
+            <Img src={CrudApp} alt="CrudApp" />
+          </ImgContainer>
+          <TextContainer>
+            <Title>Inventory Management</Title>
+            <Explanation>
+              Created Inventory Management web application using Asp.Net WebApi and Angular.
+            </Explanation>
+            <Technology>
+              <TechItems>
+                <Hastag>#</Hastag>Asp.Net WebApi
+              </TechItems>
+              <TechItems>
+                <Hastag>#</Hastag>Angular
+              </TechItems>
+            </Technology>
+          </TextContainer>
+        </Card>
+      </CardRow>
+      
+      <CardRow>
+        <Card>
+          <Link
             githubLink="https://github.com/Meghrup07/V2"
             externalLink="https://meghshyam.netlify.app"
           />
@@ -237,34 +287,6 @@ const BeginnerProjects = () => {
         </Card>
         <Card>
           <Link
-            githubLink="https://github.com/Meghrup07/meghshyam"
-            externalLink="https://meghrup07.github.io/meghshyam/"
-          />
-          <ImgContainer>
-            <Img src={Portfolio1} alt="Portfolio1" />
-          </ImgContainer>
-          <TextContainer>
-            <Title>Simple Portfolio Website</Title>
-            <Explanation>
-              Created a simple Portfolio website using HTML and CSS.
-            </Explanation>
-            <Technology>
-              <TechItems>
-                <Hastag>#</Hastag>HTML
-              </TechItems>
-              <TechItems>
-                <Hastag>#</Hastag>CSS
-              </TechItems>
-              <TechItems>
-                <Hastag>#</Hastag>JavaScript
-              </TechItems>
-            </Technology>
-          </TextContainer>
-        </Card>
-      </CardRow>
-      <CardRow>
-        <Card>
-          <Link
             githubLink="https://github.com/Meghrup07/Task-List-App"
             externalLink="https://meghrup07.github.io/Task-List-App/"
           />
@@ -277,6 +299,32 @@ const BeginnerProjects = () => {
             <Technology>
               <TechItems>
                 <Hastag>#</Hastag>HTML & CSS
+              </TechItems>
+              <TechItems>
+                <Hastag>#</Hastag>Angular
+              </TechItems>
+            </Technology>
+          </TextContainer>
+        </Card>
+      </CardRow>
+      <CardRow>
+        <Card>
+          <Link
+            githubLink="https://github.com/Meghrup07/angular-tic-tac-toe"
+            externalLink="https://meghrup07.github.io/angular-tic-tac-toe/"
+          />
+          <ImgContainer>
+            <Img src={TicTacToe} alt="TicTacToe" />
+          </ImgContainer>
+          <TextContainer>
+            <Title>Tic-Tac-Toe</Title>
+            <Explanation>Simple Tic-Tac-Toe Game</Explanation>
+            <Technology>
+              <TechItems>
+                <Hastag>#</Hastag>HTML & CSS
+              </TechItems>
+              <TechItems>
+                <Hastag>#</Hastag>JavaScript
               </TechItems>
               <TechItems>
                 <Hastag>#</Hastag>Angular
@@ -312,58 +360,6 @@ const BeginnerProjects = () => {
           </TextContainer>
         </Card>
       </CardRow>
-      <CardRow>
-        <Card>
-          <Link
-            githubLink="https://github.com/Meghrup07/Covid19-Cases-Track-Website"
-            externalLink="https://meghrup07.github.io/Covid19-Cases-Track-Website/"
-          />
-          <ImgContainer>
-            <Img src={Covid19} alt="Covid19-Cases" />
-          </ImgContainer>
-          <TextContainer>
-            <Title>Covid19 Cases Track Website</Title>
-            <Explanation>
-              Created simple dashboard for tracking Covid19 cases using Angular
-            </Explanation>
-            <Technology>
-              <TechItems>
-                <Hastag>#</Hastag>HTML
-              </TechItems>
-              <TechItems>
-                <Hastag>#</Hastag>JavaScript
-              </TechItems>
-              <TechItems>
-                <Hastag>#</Hastag>Angular
-              </TechItems>
-            </Technology>
-          </TextContainer>
-        </Card>
-        <Card>
-          <Link
-            githubLink="https://github.com/Meghrup07/angular-tic-tac-toe"
-            externalLink="https://meghrup07.github.io/angular-tic-tac-toe/"
-          />
-          <ImgContainer>
-            <Img src={TicTacToe} alt="TicTacToe" />
-          </ImgContainer>
-          <TextContainer>
-            <Title>Tic-Tac-Toe</Title>
-            <Explanation>Simple Tic-Tac-Toe Game</Explanation>
-            <Technology>
-              <TechItems>
-                <Hastag>#</Hastag>HTML & CSS
-              </TechItems>
-              <TechItems>
-                <Hastag>#</Hastag>JavaScript
-              </TechItems>
-              <TechItems>
-                <Hastag>#</Hastag>Angular
-              </TechItems>
-            </Technology>
-          </TextContainer>
-        </Card>
-      </CardRow>
       {!showMore && (
         <ButtonContainer>
           <ButtonShow
@@ -377,50 +373,7 @@ const BeginnerProjects = () => {
       )}
       {showMore && (
         <>
-          <CardRow>
-            <Card>
-              <Link
-                githubLink="https://github.com/Meghrup07/todoapp"
-                externalLink="https://meghrup07.github.io/todoapp/"
-              />
-              <ImgContainer>
-                <Img src={TODO} alt="todo" />
-              </ImgContainer>
-              <TextContainer>
-                <Title>TO-DO App</Title>
-                <Explanation>SImple TO-DO List App Using Angular</Explanation>
-                <Technology>
-                  <TechItems>
-                    <Hastag>#</Hastag>HTML & CSS
-                  </TechItems>
-                  <TechItems>
-                    <Hastag>#</Hastag>Angular
-                  </TechItems>
-                </Technology>
-              </TextContainer>
-            </Card>
-            <Card>
-              <Link
-                githubLink="https://github.com/Meghrup07/SimpleCrudApp"
-                externalLink="https://github.com/Meghrup07/SimpleCrudApp"
-              />
-              <ImgContainer>
-                <Img src={CrudApp} alt="CrudApp" />
-              </ImgContainer>
-              <TextContainer>
-                <Title>Crud App</Title>
-                <Explanation>Created simple crud app in php.</Explanation>
-                <Technology>
-                  <TechItems>
-                    <Hastag>#</Hastag>PHP
-                  </TechItems>
-                  <TechItems>
-                    <Hastag>#</Hastag>MySql
-                  </TechItems>
-                </Technology>
-              </TextContainer>
-            </Card>
-          </CardRow>
+
         </>
       )}
     </Container>
