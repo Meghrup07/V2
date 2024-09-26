@@ -138,9 +138,8 @@ const About = ({ aboutRef }) => {
       <Body>
         <TextContainer>
           <Text>
-            I'm an Experienced Software Engineer. Skilled in MySQL 
-            database and technologies Angular, React, HTML, CSS, SCSS, ASP.NET Core, 
-             JavaScript and jQuery
+            I'm an Experienced Software Engineer. Skilled in technologies like Angular, ASP.NET Core, 
+            React, HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery and Git
             And also I'm a frontend developer who loves to build
             website and webapp to solve other people's problems. Experience of leading a
             team of professionals for small to medium sized projects. Highly
@@ -151,12 +150,11 @@ const About = ({ aboutRef }) => {
           <br />
           <Text>
             I enjoy creating things that live both on the internet and in
-            reality, whether that be websites, applications, embedded systems or
-            anything in between. I also love working and creating websites,
-            Traveling and attending social events. My goal is to always build
+            reality, whether that be websites, web applications or
+            anything in between. My goal is to always build
             products that provide pixel-perfect, user-friendly, security
             efficient, performant experiences. Shortly after I graduated, I had
-            been overly engrossed in the Web development and the vast amount of
+            been overly engrossed in the Software Development and the vast amount of
             knowledge it holds.
           </Text>
           <br />
