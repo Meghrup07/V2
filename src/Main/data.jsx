@@ -17,7 +17,7 @@ export const dataExperience = {
       title: "IndoWorld Consulting & Technology Services Pvt. Ltd. 🏢",
       date: "Aug 2023 - Present",
       first: "Developed RESTful APIs using Asp.Net Core Web Api for complex applications, ensuring seamless integration and high performance.",
-      second: "Designed and maintained web applications using Angular HTML5, CSS3, TypeScript, jQuery and Asp.Net Core.",
+      second: "Designed and maintained responsive and scalable web applications using Angular, HTML5, CSS3, TypeScript and ASP.NET Core, ensuring seamless integration with backend services and optimizing user experience.",
       third: "Developed React applications using Redux Toolkit state management and RESTful APIs.",
     },
     1: {
