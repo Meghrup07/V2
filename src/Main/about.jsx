@@ -139,9 +139,9 @@ const About = ({ aboutRef }) => {
         <TextContainer>
           <Text>
             I'm an Experienced Software Engineer. Skilled in technologies like Angular, ASP.NET Core, 
-            React, HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery and Git
-            And also I'm a frontend developer who loves to build
-            website and webapp to solve other people's problems. Experience of leading a
+            React, HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery and Git.
+            And also I'm a Software Developer who loves to build
+            website and web applications to solve other people's problems. Experience of leading a
             team of professionals for small to medium sized projects. Highly
             interested in Automation frontier in software development. Strong
             information technology professional with a Bachelor Of Computer
