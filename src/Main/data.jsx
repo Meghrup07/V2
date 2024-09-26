@@ -11,9 +11,6 @@ export const dataExperience = {
     2: {
       main: "Software Engineer",
     },
-    3: {
-      main: "Software Engineer Trainee",
-    },
   },
   info: {
     0: {
@@ -33,13 +30,6 @@ export const dataExperience = {
       second: "Design and Develop Web Sites and Web Applictions.",
       third:
         "Worked on Technologies like HTMl5, CSS3, jQuery, JavaScript, Angular, Sass and Bootstrap.",
-    },
-    3: {
-      title: "kloudone 🏢",
-      date: "June 2020 - Sept 2020",
-      first: "Worked on Front-End Development.",
-      second: "Design and Develop Web Sites.",
-      third: "Worked on Technologies like HTMl5, CSS3, jQuery, JavaScript, Angular.",
     },
   },
 };
