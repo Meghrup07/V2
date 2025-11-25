@@ -3,31 +3,41 @@
 export const dataExperience = {
   list: {
     0: {
-      main: "Solution Engineer",
-    },
-    1: {
       main: "Software Developer",
     },
+    1: {
+      main: "Solution Engineer",
+    },
     2: {
+      main: "Software Developer",
+    },
+    3: {
       main: "Software Engineer",
     },
   },
   info: {
-    0: {
+     0: {
+      title: "ePlannerPro 🏢",
+      date: "Jan 2025 - Present",
+      first: "Developing robust and scalable RESTful APIs using ASP.NET Core and NestJS, enhancing backend architecture and data handling efficiency.",
+      second: "Building dynamic and responsive frontend applications with Angular, focusing on modular design and optimal user experience",
+      third: "Set up CI/CD pipelines with Azure App Services to automate build, test, and deployment processes, improving release speed and reliability.",
+    },
+    1: {
       title: "IndoWorld Consulting & Technology Services Pvt. Ltd. 🏢",
-      date: "Aug 2023 - Present",
+      date: "Aug 2023 - Dec 2024",
       first: "Designed and implemented RESTful APIs using ASP.NET Core Web API, ensuring seamless integration with frontend services.",
       second: "Built responsive and scalable web applications using Angular, HTML5, CSS3, and TypeScript, optimizing user experience and performance.",
       third: "Created reusable component libraries in React with Redux Toolkit, improving development efficiency.",
     },
-    1: {
+   2: {
       title: "ekZero Enterprise Software Services Pvt. Ltd. 🏢",
       date: "Sept 2022 - Aug 2023",
       first: "Successfully integrated RESTful APIs into Angular applications, streamlining data flow between backend and frontend systems.",
       second: "Designed secure API endpoints using ASP.NET Core Web API for payment processing systems.",
       third: "Built responsive UI components using modern CSS frameworks (SCSS, Bootstrap) and jQuery.",
     },
-    2: {
+   3: {
       title: "Helios Solutions 🏢",
       date: "Dec 2020 - Aug 2022",
       first: "Integrated REST APIs for frontend development using technologies like Angular, HTML5, CSS3 and JavaScript.",
